@@ -27,14 +27,19 @@ RowLayout {
 
         Text {
             text: "Name: " + personInfo.name
+
+            font.pixelSize: 20
         }
 
         Text {
             text: "Age: " + personInfo.age
+            font.pixelSize: 16
         }
 
         Text {
             text: "Status: " + familyStatus.marriageStatuses[personInfo.fs]
+            font.pixelSize: 16
         }
+
     }
 }

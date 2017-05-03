@@ -20,8 +20,9 @@ int main(int argc, char *argv[])
 
     PeopleModel myModel;
     myModel.addPerson("Dimon", 27, QColor(100, 200, 255));
+    //myModel.addPreson();
 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 5; i++) {
         myModel.addPerson("User #...", i, QColor((i*10) % 255, 0, 0));
     }
 

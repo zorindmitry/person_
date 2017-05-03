@@ -4,11 +4,15 @@ CONFIG += c++11
 
 SOURCES += main.cpp \
     person.cpp \
-    peoplemodel.cpp
+    peoplemodel.cpp \
+    persondata.cpp \
+    persondatainfile.cpp
 
 HEADERS += \
     person.h \
-    peoplemodel.h
+    peoplemodel.h \
+    persondata.h \
+    persondatainfile.h
 
 
 RESOURCES += qml.qrc
