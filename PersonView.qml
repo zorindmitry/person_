@@ -10,6 +10,8 @@ RowLayout {
     implicitWidth: 500
     implicitHeight: layout.height
 
+    //width: implicitWidth
+    //height: implicitHeight
 
     QtObject {
         id: familyStatus
